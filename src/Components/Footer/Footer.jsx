@@ -2,6 +2,7 @@ import React from "react";
 import {MdOutlineEmail} from "react-icons/md";
 import {CiLinkedin} from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
+import { FaFileAlt } from 'react-icons/fa';
 const Footer = ()=> {
     return (
         <div
@@ -24,7 +25,12 @@ const Footer = ()=> {
         <li className="flex gap-1 items-center">
             <FaGithub size={20}/>
             <a href="https://github.com/Aytulshad11">Github</a>
-        </li></ul>
+        </li>
+        <li className="flex gap-1 items-center">
+            <FaFileAlt size={20}/>
+            <a href="https://drive.google.com/file/d/1TtzxPOkt7Qpptnecl51rg_-Bhx3J_ZX_/view?usp=drive_link">Resume</a>
+        </li>
+            </ul>
         </div>
     )
 }
