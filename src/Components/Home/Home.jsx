@@ -17,7 +17,7 @@ const Home = () => {
         <button className="mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85
         duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">Contact Me</button>
         </div>
-         <div><img className="max-w-32 h-64 md:w-80 md:h-80" src={HomeImg} alt="" /></div> 
+         <div><img className="max-w-32 h-64 md:max-w-3xl md:h-80" src={HomeImg} alt="" /></div> 
     </div>
 }
 
